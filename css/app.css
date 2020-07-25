@@ -425,22 +425,25 @@ body {
     background: #FBFEF9;
     border-radius: 15px;
     color: #049A8F;
-    /* border: 5px solid #54F2F2; */
+    cursor: pointer;
 }
 
 .card__symbol {
     margin: 0 0 10px;
     font-size: 48px;
+    pointer-events: none;
 }
 
 .card__code {
     margin: 0 0 0 auto;
-    padding: 0 5px 5px;
+    padding: 0 7px 7px;
     line-height: 1;
+    letter-spacing: -1px;
     color: #042A2B;
     font-size: 36px;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
     border: 2px dashed #03B5AA;
     border-radius: 5px;
+    pointer-events: none;
 }
